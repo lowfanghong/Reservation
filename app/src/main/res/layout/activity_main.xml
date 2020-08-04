@@ -82,24 +82,35 @@
                     android:text="@string/smoking" />
 
             </LinearLayout>
-            <DatePicker
-                android:id="@+id/datePicker"
+
+
+            <TextView
+                android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Day" />
 
-                android:calendarViewShown="false"
-                android:datePickerMode="spinner"
-
-
-                />
-
-            <TimePicker
-                android:id="@+id/timePicker"
+            <EditText
+                android:id="@+id/editTextday"
                 android:layout_width="match_parent"
-                android:layout_height="201dp"
-                android:timePickerMode="spinner"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Click here to select day"
+                android:inputType="textPersonName" />
 
-                />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time" />
+
+            <EditText
+                android:id="@+id/editTextTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Click here to select time"
+                android:inputType="textPersonName" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -111,14 +122,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="@string/confirm" />
-
-                <Button
-                    android:id="@+id/button3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="@string/DeF" />
+                    android:text="reserve" />
 
                 <Button
                     android:id="@+id/button2"
@@ -127,6 +131,7 @@
                     android:layout_weight="1"
                     android:text="@string/resT" />
             </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
